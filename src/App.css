@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+body {
+    background-image: url('/snow.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.app{
+    width: 90%;
+  max-width: 400px;
+    padding: 20px;
+    color: #ebdfdf;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px 0px rgba(222, 29, 29, 0.2);
+    background: linear-gradient(108deg,#1e74a9,#43dbe0);
+     overflow-x: hidden;
+}
+.app h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.input-wrapper{
+    display: flex;
+}
+.input-wrapper input{
+    width: 100%;
+    padding: 5px 10px;
+    height: 32px;
+    font-size: 20px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input-wrapper input:focus{
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 5px;
+    outline: none;
+}
+.input-wrapper button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    width: 70px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(262deg,rgba(0,0,0,0.1),rgba(0,0,0,0.4)) ;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-c{
+    flex-direction: column;
+}
+.location{margin-top: 20px;}
+.location h2{
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 300;
+}
+.location h2 span{
+    font-size: 18px;
+}
+.datetext{
+    font-size: 18px;
+}
+.weatherdesc h3{
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.tempstats{
+    width: 100%;
+    padding: 20px 0px;
+}
+.tempstats h1{
+    font-size: 50px;
+    font-weight: 200;
+    margin: 0;
+}
+.tempstats h1 span{
+    font-size: 30px;
+}
+.tempstats h3{
+    font-weight: 400;
+}
+.windstats{
+    padding: 0px 20px;
+    background:rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.windstats h3{
+    margin-left: 10px;
+    font-weight: 400;
+}
